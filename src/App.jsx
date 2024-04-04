@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import HeroSection from './components/HeroSection'
 import AboutUs from './components/AboutUs'
+import HighLightSection from './components/HighLightSection'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <HeroSection />
       <AboutUs />
+      <HighLightSection />
     </>
   )
 }
