@@ -5,6 +5,7 @@ import './App.css'
 import HeroSection from './components/HeroSection'
 import AboutUs from './components/AboutUs'
 import HighLightSection from './components/HighLightSection'
+import PriceSection from './components/PriceSection'
 
 function App() {
 
@@ -13,6 +14,8 @@ function App() {
       <HeroSection />
       <AboutUs />
       <HighLightSection />
+      <PriceSection />
+      {/* <PriceSection /> */}
     </>
   )
 }
