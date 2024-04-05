@@ -8,6 +8,8 @@ import HighLightSection from './components/HighLightSection'
 import PriceSection from './components/PriceSection'
 import AmenitiesSection from './components/AmenitiesSection'
 import FloorPlanSection from './components/FloorPlanSection'
+import GallerySection from './components/GallerySection'
+import LocationSection from './components/LocationSection'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
       <PriceSection />
       <AmenitiesSection />
       <FloorPlanSection />
+      <GallerySection />
+      <LocationSection />
       {/* <PriceSection /> */}
     </>
   )
