@@ -6,6 +6,8 @@ import HeroSection from './components/HeroSection'
 import AboutUs from './components/AboutUs'
 import HighLightSection from './components/HighLightSection'
 import PriceSection from './components/PriceSection'
+import AmenitiesSection from './components/AmenitiesSection'
+import FloorPlanSection from './components/FloorPlanSection'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
       <AboutUs />
       <HighLightSection />
       <PriceSection />
+      <AmenitiesSection />
+      <FloorPlanSection />
       {/* <PriceSection /> */}
     </>
   )

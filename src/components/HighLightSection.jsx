@@ -4,7 +4,7 @@ import { MdOutlineHomeWork } from "react-icons/md";
 function HighLightSection() {
     return (
         <div className=' w-full bg-white'>
-            <div className=' w-[80%] flex justify-center items-center m-auto mt-10 border-t border-black pt-20'>
+            <div className=' w-[80%] flex justify-center items-center m-auto my-10 border-t border-black pt-20'>
                 <div className=' w-1/2'>
                     <img className=' w-full h-[400px] rounded-md shadow-xl' src="https://godrejsbangalore.com/godrej-bengal-lamps/img/highlights1.jpg" alt="" />
                 </div>
