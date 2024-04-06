@@ -4,9 +4,9 @@ import { FaLocationDot } from "react-icons/fa6";
 function LocationSection() {
     return (
         <div className=' w-full bg-white'>
-            <div className=' w-[80%] flex justify-center items-center m-auto my-10 pt-20'>
-                <div className=' w-1/2 pl-20'>
-                    <p className=' text-red-500 font-medium'>LOCATION ADVANTAGES</p>
+            <div className=' lg:w-[80%] w-[100%] flex flex-col lg:flex-row justify-center items-center m-auto my-10 pt-20'>
+                <div className=' lg:w-1/2 w-[100%] lg:pl-20 p-4'>
+                    <p className=' text-red-500 font-medium text-center'>LOCATION ADVANTAGES</p>
                     <h2 className=' text-3xl font-medium mt-2'>Discover Your Perfect Place in the Perfect Location</h2>
                     <div className='flex  flex-col gap-4 mt-4'>
                         <div className=' flex items-center gap-3'>
@@ -39,7 +39,7 @@ function LocationSection() {
                         </div>
                     </div>
                 </div>
-                <div className=' w-1/2'>
+                <div className='lg:w-1/2 w-[100%] p-4'>
                     <img className=' w-full h-[350px] border-8 border-slate-500 rounded-md shadow-xl' src="https://godrejsbangalore.com/godrej-bengal-lamps/img/location.jpg" alt="" />
                 </div>
             </div>

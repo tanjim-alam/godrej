@@ -4,11 +4,11 @@ import { MdOutlineHomeWork } from "react-icons/md";
 function HighLightSection() {
     return (
         <div className=' w-full bg-white'>
-            <div className=' w-[80%] flex justify-center items-center m-auto my-10 border-t border-black pt-20'>
-                <div className=' w-1/2'>
+            <div className=' w-[100%] flex flex-col-reverse gap-10 lg:gap-0 lg:flex-row lg:w-[80%] justify-center items-center m-auto my-10 border-t border-black pt-20'>
+                <div className=' lg:w-1/2 w-[100%] p-7 lg:p-0'>
                     <img className=' w-full h-[400px] rounded-md shadow-xl' src="https://godrejsbangalore.com/godrej-bengal-lamps/img/highlights1.jpg" alt="" />
                 </div>
-                <div className=' w-1/2 pl-20'>
+                <div className=' lg:w-1/2 w-[100%] pl-20'>
                     <p className=' text-red-500 font-medium'>HIGHLIGHTS</p>
                     <h2 className=' text-3xl font-medium mt-2'>Discover the Finest Features and Finishes</h2>
                     <div className='flex  flex-col gap-4 mt-4'>

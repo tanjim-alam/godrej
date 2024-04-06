@@ -3,9 +3,9 @@ import aboutImg from "../assets/aboutimg.png"
 
 function AboutUs() {
     return (
-        <div className=' w-full bg-white'>
-            <div className=' w-[80%] flex justify-center items-center m-auto mt-10'>
-                <div className=' w-1/2'>
+        <div className=' w-full bg-white pt-36 lg:pt-0 md:pt-0'>
+            <div className=' lg:w-[80%] p-5 lg:p-0  w-[100%] flex flex-col lg:flex-row justify-center items-center m-auto mt-10'>
+                <div className=' lg:w-1/2 w-full'>
                     <p className=' text-red-500 font-medium'>ABOUT US</p>
                     <h3 className=' text-3xl font-medium mt-2'>Makes your self at home and enjoy a unique experience</h3>
                     <h4 className=' mt-3 text-lg font-light'>Budigere Cross, Whitefield, Bangalore</h4>
@@ -20,7 +20,7 @@ function AboutUs() {
                         which include the urban life as well as the suburban feel.
                     </p>
                 </div>
-                <div className=' h-1/2'>
+                <div className=' w-full h-1/2 mt-8 lg:mt-0'>
                     <img src={aboutImg} alt="" />
                 </div>
             </div>

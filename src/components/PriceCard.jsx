@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PriceCard() {
+function PriceCard({ openFormModel }) {
     return (
         <div className=' bg-white w-fit flex flex-col items-center py-16 px-12 rounded-xl shadow-lg'>
             <h3 className=' border border-black  py-2 px-16 rounded-full'>3 BHK Premium</h3>
@@ -9,7 +9,7 @@ function PriceCard() {
                 <p>Size</p>
                 <p>1700 Sq.ft.</p>
             </div>
-            <button className=' bg-red-500 mt-6 text-white py-2 px-6 rounded-full'>Enquiry Now</button>
+            <button onClick={openFormModel} className=' bg-red-500 mt-6 text-white py-2 px-6 rounded-full'>Enquiry Now</button>
         </div>
     )
 }

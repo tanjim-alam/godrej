@@ -1,7 +1,7 @@
 import React from 'react'
 import FloorPlanCard from './FloorPlanCard'
 
-function FloorPlanSection() {
+function FloorPlanSection({ handleOpenModel }) {
     const floorplanData = [
         {
             id: 1,
@@ -20,15 +20,15 @@ function FloorPlanSection() {
         },
     ]
     return (
-        <div className=' w-full bg-slate-100 py-10'>
-            <div className=' w-[80%] m-auto'>
+        <div className=' w-full bg-slate-100 py-10 px-4'>
+            <div className=' lg:w-[80%] w-[100%] m-auto'>
                 <div>
                     <p className='text-red-500 font-medium text-center'>FLOOR PLANS</p>
                     <h2 className=' text-center text-3xl font-medium mt-2'>Your Vision, Our Floor Plans</h2>
                 </div>
-                <div className=' mt-10 grid grid-cols-3 gap-5'>
+                <div className=' mt-10 lg:grid lg:grid-cols-3 md:grid md:grid-cols-2 md:ml-4 flex flex-col justify-center items-center gap-5'>
                     {floorplanData.map((data, i) => (
-                        <FloorPlanCard key={i} floorType={data.floorType} floorImage={data.image} />
+                        <FloorPlanCard openFormModel={handleOpenModel} key={i} floorType={data.floorType} floorImage={data.image} />
                     ))}
                 </div>
                 {/* <FloorPlanCard /> */}

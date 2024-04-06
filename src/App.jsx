@@ -11,20 +11,25 @@ import FloorPlanSection from './components/FloorPlanSection'
 import GallerySection from './components/GallerySection'
 import LocationSection from './components/LocationSection'
 import ContactSection from './components/ContactSection'
+import Footer from './components/Footer'
 
 function App() {
-
+  function handleOpenModel(e) {
+    e.preventDefault()
+    document.getElementById('my_modal_3').showModal()
+  }
   return (
     <>
-      <HeroSection />
+      <HeroSection handleOpenModel={handleOpenModel} />
       <AboutUs />
       <HighLightSection />
-      <PriceSection />
+      <PriceSection handleOpenModel={handleOpenModel} />
       <AmenitiesSection />
-      <FloorPlanSection />
+      <FloorPlanSection handleOpenModel={handleOpenModel} />
       <GallerySection />
       <LocationSection />
       <ContactSection />
+      <Footer />
       {/* <PriceSection /> */}
     </>
   )
