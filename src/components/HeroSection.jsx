@@ -1,19 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
 import Form from './Form';
 import "../styles/home.css"
 import FormModel from './FormModel';
+import { MdMenu } from "react-icons/md";
+import MobileMenu from './MobileMenu';
 
-function HeroSection() {
-    function handleOpenModel(e) {
-        e.preventDefault()
-        document.getElementById('my_modal_3').showModal()
+function HeroSection({ handleOpenModel }) {
+    const [isOpenMenu, setIsOpenMenu] = useState(false);
+    function handleOpenMenu() {
+        setIsOpenMenu(!isOpenMenu)
     }
+
     return (
         <div className=' w-full lg:h-[100vh] md:h-auto h-[100vh] heroSection' >
-            <div className=' lg:w-[80%] w-[100%] lg:p-5 flex justify-between items-center m-auto text-white'>
+            <div className='  lg:w-[80%] w-[100%] lg:p-5 px-5 py-2 flex justify-between items-center m-auto text-white'>
                 <div>
-                    <h4>GODREJ PROPERTIES</h4>
+                    <h4 className=' font-medium'>GODREJ PROPERTIES</h4>
                 </div>
                 <div className=' hidden lg:block'>
                     <ul className=' flex justify-between items-center gap-5'>
@@ -26,6 +29,30 @@ function HeroSection() {
                         <li><NavLink>Location</NavLink></li>
                         <li className=' bg-red-500 p-2 rounded-3xl'><NavLink>+91 6360141698</NavLink></li>
                     </ul>
+                </div>
+                <div className=' lg:hidden block'>
+
+                    <div className="drawer">
+                        <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+                        <div className="drawer-content">
+                            {/* Page content here */}
+                            <label htmlFor="my-drawer" className=" text-2xl  drawer-button"><MdMenu /></label>
+                        </div>
+                        <div className="drawer-side">
+                            <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
+                            <ul className=" text-black flex flex-col gap-4 p-4 w-80 min-h-full bg-base-200 ">
+                                <li className='bg-transparent'><NavLink className=' bg-none'>Home</NavLink></li>
+                                <li><NavLink>Overview</NavLink></li>
+                                <li><NavLink>Price</NavLink></li>
+                                <li><NavLink>Amenties</NavLink></li>
+                                <li><NavLink>Master & Floor Plans</NavLink></li>
+                                <li><NavLink>Gallery</NavLink></li>
+                                <li><NavLink>Location</NavLink></li>
+                                <li className=' bg-red-500 p-2 rounded-3xl'><NavLink>+91 6360141698</NavLink></li>
+
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div className=' hidden'>
                     <ul className=' w-[90%] bg-white h-[100vh] sticky top-0 flex flex-col justify-between  items-center gap-5'>
@@ -58,7 +85,7 @@ function HeroSection() {
                         <Form />
                     </div>
                 </div>
-                <FormModel />
+
             </div>
         </div>
     )

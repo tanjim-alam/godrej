@@ -12,6 +12,7 @@ import GallerySection from './components/GallerySection'
 import LocationSection from './components/LocationSection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
+import FormModel from './components/FormModel'
 
 function App() {
   function handleOpenModel(e) {
@@ -30,6 +31,7 @@ function App() {
       <LocationSection />
       <ContactSection />
       <Footer />
+      <FormModel />
       {/* <PriceSection /> */}
     </>
   )
