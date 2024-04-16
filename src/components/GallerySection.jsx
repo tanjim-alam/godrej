@@ -48,7 +48,7 @@ function GallerySection() {
     ]
     return (
         <div className=' w-full bg-slate-100 py-10'>
-            <div className=' w-[80%] m-auto'>
+            <div className=' lg:w-[80%] w-[90%] m-auto'>
                 <div>
                     <p className='text-red-500 font-medium text-center'>LUXURY EXPERIENCE</p>
                     <h2 className=' text-center text-3xl font-medium mt-2'>Gallery</h2>
