@@ -5,7 +5,6 @@ import "../styles/home.css"
 import FormModel from './FormModel';
 import { MdMenu } from "react-icons/md";
 import MobileMenu from './MobileMenu';
-import logo from "../assets/logo.png"
 
 function HeroSection({ handleOpenModel }) {
     const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -49,7 +48,7 @@ function HeroSection({ handleOpenModel }) {
                                 <li><NavLink>Master & Floor Plans</NavLink></li>
                                 <li><NavLink>Gallery</NavLink></li>
                                 <li><NavLink>Location</NavLink></li>
-                                <li className=' bg-red-500 p-2 rounded-3xl'><NavLink>+91 6360141698</NavLink></li>
+                                <li className=' bg-red-500 text-white p-2 rounded-3xl'><NavLink>+91 6360141698</NavLink></li>
 
                             </ul>
                         </div>
@@ -64,7 +63,7 @@ function HeroSection({ handleOpenModel }) {
                         <li><NavLink>Master & Floor Plans</NavLink></li>
                         <li><NavLink>Gallery</NavLink></li>
                         <li><NavLink>Location</NavLink></li>
-                        <li className=' bg-red-500 p-2 rounded-3xl'><NavLink>+91 6360141698</NavLink></li>
+                        <li className=' bg-red-500  p-2 rounded-3xl'><NavLink>+91 6360141698</NavLink></li>
                     </ul>
                 </div>
             </div>
