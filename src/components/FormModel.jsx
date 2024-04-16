@@ -14,7 +14,7 @@ function FormModel() {
         name: "",
         email: "",
         number: "",
-        projectName: "Godrej"
+        projectName: "Goyal"
     });
 
 

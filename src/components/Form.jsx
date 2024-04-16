@@ -22,7 +22,6 @@ function Form() {
     }
 
     async function handleSubmit(e) {
-        console.log("clicked")
         e.preventDefault()
         try {
             if (!LeadData.name || !LeadData.email || !LeadData.number) {
@@ -51,7 +50,7 @@ function Form() {
                 <input type="text" placeholder='Name' name="name" className=' p-2 rounded outline-none' value={LeadData.name} onChange={handleOnChange} required />
                 <input type="text" id="" placeholder='Contact No.' name="number" className=' p-2 rounded outline-none' value={LeadData.number} onChange={handleOnChange} required />
                 <input type="text" placeholder='Email' name='email' className=' p-2 rounded outline-none' value={LeadData.email} onChange={handleOnChange} required />
-                <input type="text" name="" id="message" placeholder='Message' className=' p-2 rounded outline-none' required />
+                <input type="text" name="" id="message" placeholder='Message' className=' p-2 rounded outline-none' />
                 <span className=' text-red-600'>{isError ? "all fields are required" : null}</span>
                 <button className=' p-2 border-2 border-white rounded text-white'>Submit</button>
             </form>

@@ -68,7 +68,7 @@ function ContactSection() {
                             <input type="text" placeholder='Name' className=' p-2 rounded outline-none' required name='name' value={LeadData.name} onChange={handleOnChange} />
                             <input type="text" name="number" id="" placeholder='Contact No.' className=' p-2 rounded outline-none' required value={LeadData.number} onChange={handleOnChange} />
                             <input type="text" placeholder='Email' className=' p-2 rounded outline-none' required name='email' value={LeadData.email} onChange={handleOnChange} />
-                            <input type="text" name="message" id="" placeholder='Message' className=' p-2 rounded outline-none' required />
+                            <input type="text" name="message" id="" placeholder='Message' className=' p-2 rounded outline-none' />
                             <button className=' p-2 border-2 border-white rounded text-white'>Submit</button>
                         </form>
                     </div>
