@@ -84,11 +84,11 @@ function FormModel() {
                     </form>
                 </form>
                 <div className="flex items-center justify-between mt-4">
-                    <NavLink to="tel:919900112233" className="flex items-center gap-1">
+                    <NavLink to="tel:+918808077653" className="flex items-center gap-1">
                         <BiSolidPhoneCall className=" text-lg text-green-600" />
                         <p className="text-sm text-green-600 font-medium">Call</p>
                     </NavLink>
-                    <NavLink to="https://wa.me/552196312XXXX" className="flex items-center gap-1">
+                    <NavLink to="https://wa.me/+918808077653" className="flex items-center gap-1">
                         <FaSquareWhatsapp className=" text-lg text-green-600" />
                         <p className="text-sm text-green-600 font-medium">WhatsApp</p>
                     </NavLink>
