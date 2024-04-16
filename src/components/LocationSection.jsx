@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaLocationDot } from "react-icons/fa6";
+import map1 from "../assets/map1.webp"
 
 function LocationSection() {
     return (
@@ -11,36 +12,36 @@ function LocationSection() {
                     <div className='flex  flex-col gap-4 mt-4'>
                         <div className=' flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><FaLocationDot /></span>
-                            <p>Whitefield Metro Station - 9.2 km</p>
+                            <p>Cessna Business Park</p>
                         </div>
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><FaLocationDot /></span>
-                            <p>KR Puram Railway Station - 10 km</p>
+                            <p>Cessna Business Park</p>
                         </div>
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><FaLocationDot /></span>
-                            <p>Brigade Signature Towers - 1.2 km</p>
+                            <p>Croma Sarjapura Road</p>
                         </div>
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><FaLocationDot /></span>
-                            <p>Bearys Global Research - 2.3 km</p>
+                            <p>Bagmane Constellation Business Park</p>
                         </div>
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><FaLocationDot /></span>
-                            <p>Proposed Iblur Metro Station – 15 mins drive time*</p>
+                            <p>The Forum Neighbourhood Mall</p>
                         </div>
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><FaLocationDot /></span>
-                            <p>Orion Uptown Mall 1.6 km</p>
+                            <p>Manipal Hospital Varthur</p>
                         </div>
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><FaLocationDot /></span>
-                            <p>Taj Vivanta 10.8 km</p>
+                            <p>Kadugodi Tree Park Metro Station</p>
                         </div>
                     </div>
                 </div>
                 <div className='lg:w-1/2 w-[100%] p-4'>
-                    <img className=' w-full h-[350px] border-8 border-slate-500 rounded-md shadow-xl' src="https://godrejsbangalore.com/godrej-bengal-lamps/img/location.jpg" alt="" />
+                    <img className=' w-full h-[350px] border-8 border-slate-500 rounded-md shadow-xl blur-[5px]' src={map1} alt="" />
                 </div>
             </div>
         </div>

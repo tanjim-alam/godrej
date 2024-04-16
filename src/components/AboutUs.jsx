@@ -8,16 +8,13 @@ function AboutUs() {
                 <div className=' lg:w-1/2 w-full'>
                     <p className=' text-red-500 font-medium'>ABOUT US</p>
                     <h3 className=' text-3xl font-medium mt-2'>Makes your self at home and enjoy a unique experience</h3>
-                    <h4 className=' mt-3 text-lg font-light'>Budigere Cross, Whitefield, Bangalore</h4>
+                    <h4 className=' mt-3 text-lg font-light'>Gunjur Palya, Bangalore</h4>
                     <p className=' mt-3 font-thin'>
-                        The Godrej Woodscapes house modern-looking residential units with the perfect combination of form and function that
-                        will appeal to the most discerning eye. Budigere Cross, Whitefield East Bangalore is where Godrej Woodscapes is
-                        located and it is like a tower that reflects the face of modern living in this busy township.
-                        Its impressive design and specifications support numerous amenities and facilities that are present
-                        in this high-end residential complex. This essence of modern living is captured in the spirit of contemporary
-                        design and the natural tranquillity of the surroundings of the Godrej Woodscapes.
-                        Located at Budigere Cross, this is a place that is near the major IT hubs of Whitefield, thus allowing residents to enjoy the two worlds;
-                        which include the urban life as well as the suburban feel.
+                        Orchid Life by Goyal & Co Hariyana Group is a new residential high-rise apartment project nestled in the vibrant locale of Gunjur,
+                        Varthur, within the burgeoning landscape of East Bangalore. This meticulously crafted project offers an array of 2 and 3 BHK apartments
+                        that blend modernity with comfort, aiming to cater to the diverse needs and preferences of its prospective residents.
+                        Orchid Life, an expansive residential project, is gracefully situated across 7.2 acres of lush land.
+                        Comprising a total of 750 units distributed across 5 towers, this development boasts an architectural marvel with a structure encompassing 2 basements, a ground floor, and 25 floors.
                     </p>
                 </div>
                 <div className=' w-full h-1/2 mt-8 lg:mt-0'>

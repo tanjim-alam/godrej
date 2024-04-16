@@ -71,7 +71,7 @@ function FormModel() {
                 </div>
                 <form method="dialog">
                     <button type=' button' className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
-                    <h3 className=" text-lg text-center font-medium mt-5">Sobha Crystal Meadows</h3>
+                    <h3 className=" text-lg text-center font-medium mt-5">Goyal Orchid Life</h3>
                     <form action="">
                         <div className=' flex flex-col gap-2 mt-2'>
                             <input name="name" type="text" placeholder="Name" value={LeadData.name} onChange={handleOnChange} required className="w-full border-b border-black p-2 rounded-sm outline-none" id="second" />
@@ -79,7 +79,7 @@ function FormModel() {
                             <input name="email" type="email" placeholder="Email" value={LeadData.email} onChange={handleOnChange} required className="w-full border-b border-black p-2 rounded-sm outline-none" />
                         </div>
                         <span className=' text-red-600'>{isError ? "all fields are required" : null}</span>
-                        <button type="submit" onClick={handleSubmit} className=" mt-5 bg-yellow-600 w-full p-1 text-white rounded-sm">Enquire Now</button>
+                        <button type="submit" onClick={handleSubmit} className=" mt-5 bg-red-500 w-full p-1 text-white rounded-sm">Enquire Now</button>
 
                     </form>
                 </form>

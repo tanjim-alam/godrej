@@ -1,12 +1,13 @@
 import React from 'react';
 import { MdOutlineHomeWork } from "react-icons/md";
+import orchodHighlghts from "../assets/orchod-highlghts1.webp"
 
 function HighLightSection() {
     return (
         <div className=' w-full bg-white'>
             <div className=' w-[100%] flex flex-col-reverse gap-10 lg:gap-0 lg:flex-row lg:w-[80%] justify-center items-center m-auto my-10 border-t border-black pt-20'>
                 <div className=' lg:w-1/2 w-[100%] p-7 lg:p-0'>
-                    <img className=' w-full h-[400px] rounded-md shadow-xl' src="https://godrejsbangalore.com/godrej-bengal-lamps/img/highlights1.jpg" alt="" />
+                    <img className=' w-full h-[400px] rounded-md shadow-xl' src={orchodHighlghts} alt="" />
                 </div>
                 <div className=' lg:w-1/2 w-[100%] pl-20'>
                     <p className=' text-red-500 font-medium'>HIGHLIGHTS</p>
@@ -14,29 +15,29 @@ function HighLightSection() {
                     <div className='flex  flex-col gap-4 mt-4'>
                         <div className=' flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><MdOutlineHomeWork /></span>
-                            <p>85% Of open space</p>
+                            <p>75% Of The Area Is Dedicated To Open Space.</p>
                         </div>
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><MdOutlineHomeWork /></span>
-                            <p>Land Parcel: 28.15 Acres</p>
+                            <p>Expansive Landscapes Offer State-of-the-art Amenities Throughout The Project.</p>
                         </div>
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><MdOutlineHomeWork /></span>
-                            <p>Homes Around 1500+ Trees</p>
+                            <p>Environmentally Conscious Design Elements Incorporated.</p>
                         </div>
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><MdOutlineHomeWork /></span>
-                            <p>Rooftop Swimming Pool</p>
+                            <p>Strategic Location Ensuring Connectivity To Key Areas.</p>
                         </div>
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><MdOutlineHomeWork /></span>
-                            <p>Only 4 units per floor</p>
+                            <p>Dedicated Areas For Fitness And Wellness Activities.</p>
                         </div>
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><MdOutlineHomeWork /></span>
-                            <p>Walkaway through the forest</p>
+                            <p>Emphasis On Natural Lighting And Ventilation In All Spaces.</p>
                         </div>
-                        <div className='flex items-center gap-3'>
+                        {/* <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><MdOutlineHomeWork /></span>
                             <p>Separate Lifts for each Flat</p>
                         </div>
@@ -47,7 +48,7 @@ function HighLightSection() {
                         <div className='flex items-center gap-3'>
                             <span className=' text-2xl text-red-500'><MdOutlineHomeWork /></span>
                             <p>3 lakhs sqft of retail convenience</p>
-                        </div>
+                        </div> */}
 
 
 

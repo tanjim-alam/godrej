@@ -1,6 +1,7 @@
 import React from 'react';
-import image1 from "../assets/image1.jpg";
-import image2 from "../assets/image2.jpg";
+import image1 from "../assets/galler-1.webp";
+import image2 from "../assets/gallery-2.webp";
+import image3 from "../assets/gallery-3.webp";
 
 function GallerySection() {
     const imageData = [
@@ -14,19 +15,19 @@ function GallerySection() {
         },
         {
             id: 3,
-            img: image1
+            img: image3
         },
         {
             id: 4,
-            img: image2
-        },
-        {
-            id: 5,
             img: image1
         },
         {
-            id: 6,
+            id: 5,
             img: image2
+        },
+        {
+            id: 6,
+            img: image3
         },
         {
             id: 7,
@@ -38,11 +39,11 @@ function GallerySection() {
         },
         {
             id: 9,
-            img: image1
+            img: image3
         },
         {
             id: 10,
-            img: image2
+            img: image1
         },
     ]
     return (

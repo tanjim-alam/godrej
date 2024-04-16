@@ -1,22 +1,31 @@
 import React from 'react'
-import FloorPlanCard from './FloorPlanCard'
+import FloorPlanCard from './FloorPlanCard';
+import bhk2 from "../assets/2bhk.webp"
+import bhk2t from "../assets/2bhk-t.webp"
+import bhk3 from "../assets/3bhk.webp"
+import bhk3t from "../assets/3bhk-t.webp"
 
 function FloorPlanSection({ handleOpenModel }) {
     const floorplanData = [
         {
             id: 1,
-            floorType: "2 BHK",
-            image: "https://godrejsbangalore.com/godrej-bengal-lamps/img/floor-plans/floorplan-min-1.jpg"
+            floorType: "2 BHK Compact",
+            image: bhk2
         },
         {
             id: 2,
-            floorType: "3 BHK",
-            image: "https://godrejsbangalore.com/godrej-bengal-lamps/img/floor-plans/floorplan-min-1.jpg"
+            floorType: "2 BHK Regular",
+            image: bhk2t
         },
         {
             id: 3,
-            floorType: "3.5 BHK",
-            image: "https://godrejsbangalore.com/godrej-bengal-lamps/img/floor-plans/floorplan-min-1.jpg"
+            floorType: "3 BHK + 2T",
+            image: bhk3
+        },
+        {
+            id: 4,
+            floorType: "3 BHK",
+            image: bhk3t
         },
     ]
     return (

@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 
 function Footer() {
     return (
@@ -11,7 +12,7 @@ function Footer() {
                     </p>
                 </div>
                 <div className=' border-t border-white mt-8 py-4'>
-                    <p className=' text-center text-white'>Disclaimer & Privacy Policy | Digital Media Planned By MNDigitalagency</p>
+                    <p className=' text-center text-white'>Disclaimer & Privacy Policy | Digital Media Planned By <NavLink to="https://mndigitalagency.com/">MNDigitalagency</NavLink></p>
                 </div>
             </div>
         </div>

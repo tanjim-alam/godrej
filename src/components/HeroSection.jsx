@@ -5,6 +5,7 @@ import "../styles/home.css"
 import FormModel from './FormModel';
 import { MdMenu } from "react-icons/md";
 import MobileMenu from './MobileMenu';
+import logo from "../assets/logo.png"
 
 function HeroSection({ handleOpenModel }) {
     const [isOpenMenu, setIsOpenMenu] = useState(false);
@@ -16,7 +17,7 @@ function HeroSection({ handleOpenModel }) {
         <div className=' w-full lg:h-[100vh] md:h-auto h-[100vh] heroSection' >
             <div className='  lg:w-[80%] w-[100%] lg:p-5 px-5 py-2 flex justify-between items-center m-auto text-white'>
                 <div>
-                    <h4 className=' font-medium'>GODREJ PROPERTIES</h4>
+                    <h4 className=' font-medium'>GOYAL ORCHID LIFE</h4>
                 </div>
                 <div className=' hidden lg:block'>
                     <ul className=' flex justify-between items-center gap-5'>
@@ -70,15 +71,15 @@ function HeroSection({ handleOpenModel }) {
             <div className='w-full lg:h-[88vh] flex justify-center items-center pt-10 lg:pt-0 md:pt-0'>
                 <div className=' lg:w-[80%] md:w-[90%] w-full p-4 lg:p-0 m-auto flex flex-col md:flex-row lg:flex-row justify-between '>
                     <div className=' flex flex-col gap-2 lg:pt-16 md:pt-16'>
-                        <p className=' text-yellow-600 text-sm font-medium' >BUDIGERE CROSS, WHITEFIELD, BANGALORE</p>
-                        <h2 className=' lg:text-4xl text-2xl font-semibold text-white'>GODREJ WOODSCAPES</h2>
+                        <p className=' text-yellow-600 text-sm font-medium' >GUNJUR PALYA, BANGALORE</p>
+                        <h2 className=' lg:text-4xl text-2xl font-semibold text-white'>GOYAL ORCHID LIFE</h2>
                         <div className=' mt-2 flex-col gap-2 flex text-white '>
-                            <p className='bg-gray-800 w-fit p-1 text-sm'>EOI Window Open</p>
-                            <p className='bg-gray-800 w-fit p-1 text-sm'>Pre-Book By Paying ₹5 Lacs</p>
-                            <p className='bg-gray-800 w-fit p-1 text-sm'>Phase 1 - 7 Towers</p>
+                            <p className='bg-gray-800 w-fit p-1 text-sm'>Total Land Area : 7.2 Acres</p>
+                            <p className='bg-gray-800 w-fit p-1 text-sm'>Total No. of Units : 750</p>
+                            <p className='bg-gray-800 w-fit p-1 text-sm'>Towers & Blocks : 5 Tower</p>
                         </div>
-                        <h3 className=' border-2 border-white text-white lg:py-2 py-1 px-8 rounded-full w-fit '>3, 3.5 & 4 BHK Apartments</h3>
-                        <h3 className=' border-2 border-white text-white lg:py-2 py-1 px-8 rounded-full w-fit '>Starting Price : ₹ 1.56 Cr*</h3>
+                        <h3 className=' border-2 border-white text-white lg:py-2 py-1 px-8 rounded-full w-fit '>2 & 3 BHK Apartments</h3>
+                        <h3 className=' border-2 border-white text-white lg:py-2 py-1 px-8 rounded-full w-fit '>Starting Price : ₹ 99 Lacs*</h3>
                         <button onClick={handleOpenModel} className=' bg-red-500 w-fit py-2 px-4 mt-3 text-white rounded-full'>Download Brochure</button>
                     </div>
                     <div className=' mt-16'>
